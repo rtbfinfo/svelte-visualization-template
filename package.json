@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "preprod": "cd dist; live-server --port=8080; cd .."
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.0.2",
